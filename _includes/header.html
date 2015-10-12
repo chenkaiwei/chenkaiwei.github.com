@@ -13,13 +13,13 @@
         </svg>
       </a>
 
-      <div class="trigger">
-        {% for nav in site.navigations %}
-          {% if nav.title %}
-          <a class="page-link" href="{{ nav. href  }}">{{ nav.title }}</a>
-          {% endif %}
-        {% endfor %}
-      </div>
+       <div class="trigger">
+                {% for nav in site.navigations %}
+                {% if nav.title %}
+                <a class="page-link" href="{{ nav.href }}">{{ nav.title }}</a>
+                {% endif %}
+                {% endfor %}
+		</div>
     </nav>
 
   </div>
