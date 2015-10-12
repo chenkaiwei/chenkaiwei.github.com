@@ -12,3 +12,17 @@ github_username:  chenkaiwei
 
 # Build settings
 markdown: kramdown
+
+# Navigations
+navigations:
+  - title: 首页
+    class: fa fa-list-ul
+  - title: 博客
+    class: fa fa-tags
+    href: /archive/
+  - title: 闲碎
+    class: fa fa-user
+    href: /categories/
+  - title: 自述
+    class: fa fa-list-ul
+    href: /about
