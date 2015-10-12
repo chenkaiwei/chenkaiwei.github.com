@@ -14,9 +14,9 @@
       </a>
 
       <div class="trigger">
-        {% for page in site.pages %}
-          {% if page.title %}
-          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+        {% for nav in site.navigations %}
+          {% if nav.title %}
+          <a class="page-link" href="{{ nav. href  }}">{{ nav.title }}</a>
           {% endif %}
         {% endfor %}
       </div>
