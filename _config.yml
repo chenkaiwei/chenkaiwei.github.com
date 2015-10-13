@@ -17,10 +17,10 @@ markdown: kramdown
 navigations:
   - title: 首页
     class: fa fa-list-ul
-  - title: 博客
+  - title: 时间线
     class: fa fa-tags
     href: /archive/
-  - title: 闲碎
+  - title: 分类
     class: fa fa-user
     href: /categories/
   - title: 自述
