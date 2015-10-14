@@ -12,7 +12,7 @@ github_username:  chenkaiwei
 
 # Build settings
 markdown: kramdown
-excerpt_separator: <@excerpt-end>
+excerpt_separator: <!--@excerpt-end-->
 
 # Navigations
 navigations:
