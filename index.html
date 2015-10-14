@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-<!--a-->
 <div class="home">
 
   <h1 class="page-heading">Posts</h1>
@@ -12,7 +11,7 @@ layout: default
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
-        <p class="post-meta">{{ post.date | date: "%Y-%m-%d" }}</p>
+        <p class="post-meta">{{ post.date | date: "%Y-%m-%d" }}{% if post.author %} • {{ post.author }}{% endif %}{% if post.meta %} • {{ post.meta }}{% endif %}</p>
       		<article class="post-content">
     		{{ post.excerpt }}……
   			</article> 
@@ -20,7 +19,5 @@ layout: default
       </li>
     {% endfor %}
   </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
 </div>
