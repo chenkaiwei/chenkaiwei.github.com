@@ -2,9 +2,6 @@
 layout: default
 ---
 <div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
   <ul class="post-list">
     {% for post in site.posts %}
       <li>
@@ -13,7 +10,7 @@ layout: default
         </h2>
         <p class="post-meta">{{ post.date | date: "%Y-%m-%d" }}{% if post.author %} • {{ post.author }}{% endif %}{% if post.meta %} • {{ post.meta }}{% endif %}</p>
       		<article class="post-content">
-    		<span>{{ post.excerpt }}……</span>
+    		{{ post.excerpt }}阅读全文
   			</article> 
         <hr/>
       </li>
