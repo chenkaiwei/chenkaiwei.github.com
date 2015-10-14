@@ -13,7 +13,7 @@ layout: default
         </h2>
         <p class="post-meta">{{ post.date | date: "%Y-%m-%d" }}{% if post.author %} • {{ post.author }}{% endif %}{% if post.meta %} • {{ post.meta }}{% endif %}</p>
       		<article class="post-content">
-    		{{ post.excerpt }}……
+    		{{ post.excerpt | strip_html }}……
   			</article> 
         <hr/>
       </li>
