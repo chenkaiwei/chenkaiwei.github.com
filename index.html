@@ -9,11 +9,13 @@ layout: default
   <ul class="post-list">
     {% for post in site.posts %}
       <li>
-        <p class="post-meta">{{ post.date | date: "%Y-%m-%d" }}</p>
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
-        <p>{{ post.excerpt }}……</p>
+        <p class="post-meta">{{ post.date | date: "%Y-%m-%d" }}</p>
+      		<article class="post-content">
+    		{{ post.excerpt }}……
+  			</article> 
         <hr/>
       </li>
     {% endfor %}
