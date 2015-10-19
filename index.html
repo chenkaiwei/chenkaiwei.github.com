@@ -10,9 +10,11 @@ layout: default
         </h2>
         <p class="post-meta">{{ post.date | date: "%Y-%m-%d" }}{% if post.author %} • {{ post.author }}{% endif %}{% if post.meta %} • {{ post.meta }}{% endif %}</p>
       		<article class="post-content">
-    		{{ post.excerpt }}
-    		{% if post.content contains site.excerpt_separator %}
-    		……
+    		{% if post.content contains site.excerpt_separator %} 
+    			{{ post.excerpt | append: '...'}}
+    			<a>阅读全文</a>
+    		{% else %}
+    			{{ post.excerpt}}
     		{% endif %}
   			</article> 
         <hr/>
