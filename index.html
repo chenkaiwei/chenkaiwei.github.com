@@ -11,7 +11,7 @@ layout: default
         <p class="post-meta">{{ post.date | date: "%Y-%m-%d" }}{% if post.author %} • {{ post.author }}{% endif %}{% if post.meta %} • {{ post.meta }}{% endif %}</p>
       		<article class="post-content">
     		{% if post.content contains site.excerpt_separator %} 
-    			{{ post.excerpt |remove_first: '</p>' | append: '...'}}
+    			{{ post.excerpt |remove_last: '</p>' | append: '...'}}
     			<p><a>阅读全文</a></p>
     		{% else %}
     			{{ post.excerpt}}
