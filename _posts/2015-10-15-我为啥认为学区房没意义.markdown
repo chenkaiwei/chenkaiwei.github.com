@@ -3,6 +3,7 @@ layout: post
 title:  '学区房有意义吗？'
 date:   2015-10-15 2
 categories: 观点
+address: 杭州
 published: true
 ---
 现在有一个非常流行的趋势，就是买房时把学区房看得很重，为了买个好的学区房，动辄多花几十万上百万的价钱。

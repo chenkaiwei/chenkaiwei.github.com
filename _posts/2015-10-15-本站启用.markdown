@@ -2,8 +2,8 @@
 layout: post
 title:  "本站启用"
 date:   2015-10-15 1
-address: 杭州
 categories: 建站记录
+address: 杭州
 published: true
 ---
 2015年10月15日，本站正式启用。
