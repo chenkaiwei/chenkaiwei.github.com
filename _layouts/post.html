@@ -11,9 +11,11 @@ layout: default
   <article class="post-content">
     {{ content }}
   </article> 
+  {% if page.author %}<p class="post-end">{{ page.author }}</p>{% endif %}
+  
   {{if page.date}}
 <p class="post-end">{{ page.date | date: "%Y-%m-%d" }}</p>
 	{{end if}}
-	{% if page.author %}<p class="post-end">{{ page.author }}</p>{% endif %}
+	
   </header>
 </div>
