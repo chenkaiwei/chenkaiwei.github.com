@@ -239,3 +239,6 @@
 	float:right;
 	clear:both;
 }
+.excerpt p:last-child::after {
+    content: '..';
+}
