@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>浮沙·要塞</title>
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://blog.yaosai.me/"/>
+  <updated>2017-10-24T23:44:37.000Z</updated>
+  <id>http://blog.yaosai.me/</id>
+  
+  <author>
+    <name>卫循</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>宣战</title>
+    <link href="http://blog.yaosai.me//blog/2017/06/%E6%9C%AC%E6%9C%AB%E5%80%92%E7%BD%AE.html"/>
+    <id>http://blog.yaosai.me//blog/2017/06/本末倒置.html</id>
+    <published>2017-06-14T17:51:24.000Z</published>
+    <updated>2017-10-24T23:44:37.000Z</updated>
+    
+    <content type="html">&lt;blockquote&gt;&lt;p&gt;我禁止有人提问，深知不存在可能解渴的答案。那些提问的人，只是在寻找深渊。&lt;/p&gt;
+&lt;footer&gt;&lt;strong&gt;圣埃克苏佩里&lt;/strong&gt;&lt;cite&gt;《要塞》&lt;/cite&gt;&lt;/footer&gt;&lt;/blockquote&gt;
+&lt;p&gt;.&lt;/p&gt;
+&lt;p&gt;青春期的少年中偶尔会出现这样的人。他们拥有天赋和才能，孤僻、傲气，难以沟通，藐视旁人的经验和劝诫。他们厌恶束缚、藐视权威、好勇斗狠，面对一切阻挡自己的事物都不惜一战。&lt;/p&gt;
+&lt;p&gt;在这群人中，偶尔有人察觉到了隐藏于自身的规则，于是也将其视作阻碍，一并宣战。&lt;/p&gt;
+&lt;p&gt;本站的作者，我，就曾是这样一个少年。&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;&lt;p&gt;我禁止有人提问，深知不存在可能解渴的答案。那些提问的人，只是在寻找深渊。&lt;/p&gt;
+&lt;footer&gt;&lt;strong&gt;圣埃克苏佩里&lt;/strong&gt;&lt;cite&gt;《要塞》&lt;/cite&gt;&lt;/footer&gt;&lt;/blockquote&gt;
+&lt;p&gt;.&lt;/p&gt;
+&lt;p&gt;青
+    
+    </summary>
+    
+    
+      <category term="首页" scheme="http://blog.yaosai.me/tags/%E9%A6%96%E9%A1%B5/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>本站重启</title>
+    <link href="http://blog.yaosai.me//blog/2017/06/%E6%9C%AC%E7%AB%99%E9%87%8D%E5%90%AF.html"/>
+    <id>http://blog.yaosai.me//blog/2017/06/本站重启.html</id>
+    <published>2017-05-31T16:00:00.000Z</published>
+    <updated>2017-10-24T23:44:37.000Z</updated>
+    
+    <content type="html">&lt;p&gt;gitlab是git源码存放地&lt;br&gt;修改代码的工作通过自己的电脑设备(git一号客户端)和gitlab之间下拉上传&lt;br&gt;海外VPS作为git二号客户端，从gitlab上拉代码&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;gitlab是git源码存放地&lt;br&gt;修改代码的工作通过自己的电脑设备(git一号客户端)和gitlab之间下拉上传&lt;br&gt;海外VPS作为git二号客户端，从gitlab上拉代码&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="建站记录" scheme="http://blog.yaosai.me/categories/%E5%BB%BA%E7%AB%99%E8%AE%B0%E5%BD%95/"/>
+    
+    
+      <category term="首页" scheme="http://blog.yaosai.me/tags/%E9%A6%96%E9%A1%B5/"/>
+    
+  </entry>
+  
+</feed>
