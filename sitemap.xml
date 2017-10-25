@@ -2,14 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://blog.yaosai.me//blog/2017/06/%E6%9C%AC%E6%9C%AB%E5%80%92%E7%BD%AE.html</loc>
+    <loc>http://blog.yaosai.me//blog/2017/10/%E6%96%B0%E6%96%87%E7%AB%A0%E6%B5%8B%E8%AF%95.html</loc>
+    
+    <lastmod>2017-10-25T00:42:13.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://blog.yaosai.me//blog/2017/06/%E6%9C%AC%E7%AB%99%E9%87%8D%E5%90%AF.html</loc>
     
     <lastmod>2017-10-24T23:44:37.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://blog.yaosai.me//blog/2017/06/%E6%9C%AC%E7%AB%99%E9%87%8D%E5%90%AF.html</loc>
+    <loc>http://blog.yaosai.me//blog/2017/06/%E6%9C%AC%E6%9C%AB%E5%80%92%E7%BD%AE.html</loc>
     
     <lastmod>2017-10-24T23:44:37.000Z</lastmod>
     
@@ -30,14 +37,14 @@
   </url>
   
   <url>
-    <loc>http://blog.yaosai.me/tags/index.html</loc>
+    <loc>http://blog.yaosai.me/categories/index.html</loc>
     
     <lastmod>2017-10-24T23:44:37.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://blog.yaosai.me/categories/index.html</loc>
+    <loc>http://blog.yaosai.me/tags/index.html</loc>
     
     <lastmod>2017-10-24T23:44:37.000Z</lastmod>
     
